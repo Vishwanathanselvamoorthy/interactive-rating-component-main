@@ -18,10 +18,10 @@ RateMySupport is a feedback collection system designed to gather user ratings fo
 - **Deployment:** Vercel
 
 ## Project Link
-[RateMySupport](https://interactive-rating-component-main-gilt-eight.vercel.app/) *(Replace "#" with your actual project link)*
+[RateMySupport](https://interactive-rating-component-main-gilt-eight.vercel.app/) 
 
 ## GitHub Repository Link
-[RateMySupport GitHub Repo](#) *(Replace "#" with your actual GitHub repository link)*
+[RateMySupport GitHub Repo](https://github.com/Vishwanathanselvamoorthy/interactive-rating-component-main) 
 
 
 

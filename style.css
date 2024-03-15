@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Overpass;
+}
+
+.container {
+  background-color: hsl(216, 12%, 8%);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.rating-card,
+.thank-you {
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+}
+
+.rating-card img {
+  background-color: hsl(213, 20%, 22%);
+  padding: 8px;
+  border-radius: 100%;
+  margin: 5px 0px;
+}
+
+.rating-card h1 {
+  color: white;
+  margin: 15px 0px;
+}
+.rating-card p {
+  color: hsl(216, 12%, 54%);
+  margin: 15px 0px;
+  line-height: 1.5;
+  font-weight: 500;
+  width: 100%;
+}
+.rating-card ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  margin: 15px 0px;
+}
+.rating-card ul li .btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  background-color: hsl(213, 20%, 22%);
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  color: white;
+}
+.rating-card ul li .btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.rating-card ul li .btn:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+/* .rating-card li {
+  background-color: hsl(216, 12%, 54%);
+  padding: 10px;
+  border-radius: 100%;
+  margin: 15px 0px;
+} */
+.btn-submit {
+  width: 100%;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  margin: 15px 0px;
+  padding: 14px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.btn-submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.thank-you img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.thank-you p.gray {
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  width: max-content;
+  padding: 0px 10px;
+  padding-top: 5px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+
+.thank-you h2 {
+  color: white;
+  margin: 8px 50px;
+}
+.thank-you p {
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 8px;
+  width: 80%;
+  line-height: 2;
+  font-weight: 500;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
